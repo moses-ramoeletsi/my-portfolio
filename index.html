@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQ.css" />
+  </head>
+
+  <body>
+    <!-- NAV BAR -->
+    <nav id="desktop-navbar">
+      <div class="logo">LowLife</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-navbar">
+      <div class="logo">LowLife</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTIONS -->
+    <!-- PROFILE SECTION -->
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/images/myprofile.png" alt="moses-profile" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Reanetse Ramoeletsi</h1>
+        <p class="section_text_p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/files/reanetse-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href ='./#contacts'"
+          >
+            Contact Me
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/images/linkedIn.png"
+            alt="linkedIn pofile"
+            class="icons"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/images/githhub.png"
+            alt="github pofile"
+            class="icons"
+            onclick="location.href='https://github.com/moses-ramoeletsi'"
+          />
+        </div>
+      </div>
+    </section>
+    <!--ABOUT SECTION  -->
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="./assets/images/myprofile.png" alt="moses-profile" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/images/experience.png"
+                alt="Experience icon"
+                class="icons"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Full stack developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/images/education.png"
+                alt="Education icon"
+                class="icons"
+              />
+              <h3>Education</h3>
+              <p>B.Sc Bachelors Degree <br />Mobile Copmuting</p>
+            </div>
+          </div>
+          <div class="tex-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut
+              nulla velit voluptatibus dicta odit! Eveniet illo, autem hic a
+              deserunt, repellat fugiat itaque perspiciatis nihil suscipit,
+              dolorem molestiae voluptatibus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience_details_continer">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article_container">
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>HTML</h3>
+                    <P>Good Experience</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>HTML</h3>
+                    <P> Experienced</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>CSS</h3>
+                    <P>Experienced</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>SASS</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>JavaScript</h3>
+                    <P>Basic</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>TypeScript</h3>
+                    <P>Basic</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Chakra UI</h3>
+                    <P>Experience</P>
+                  </div>
+                </article>
+              </div>
+          </div>
+          <div class="details-container ">
+            <h2 class="experience-sub-title">Backend Development</h2>
+              <div class="article_container">
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>MongoDB</h3>
+                    <P>Good Experience</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>PostgreSQL</h3>
+                    <P> Experienced</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Node Js</h3>
+                    <P>Experienced</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Git</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Express Js</h3>
+                    <P>Basic</P>
+                  </div>
+                </article>
+              </div>
+        </div>
+          <div class="details-container ">
+            <h2 class="experience-sub-title">Desing</h2>
+              <div class="article_container">
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Figma</h3>
+                    <P>Good Experience</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/images/experience.png" alt="Experience icon" class="icons">
+                  <div>
+                    <h3>Adobe</h3>
+                    <P> Experienced</P>
+                  </div>
+                </article>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section_text_p1">Browes My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience_details_continer">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article_container">
+              <img src="./assets/images/CarConnect.jpg" alt="Lesotho car connect" class="project-image"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Lesotho Car Connect</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article_container">
+              <img src="./assets/images/CarConnect.jpg"  alt="My Trades" class="project-image"/>
+            </div>
+            <h2 class="experience-sub-title project-title">My Trades</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article_container">
+              <img src="./assets/images/CarConnect.jpg"  alt="Note Taking" class="project-image"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Note Taking</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article_container">
+              <img src="./assets/images/CarConnect.jpg"  alt="LS.Wechat" class="project-image"/>
+            </div>
+            <h2 class="experience-sub-title project-title">LS.Wechat</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://githhub.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <p class="section_text_p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="" alt="contact-email" class="icons contact-icon"/>
+          <p><a href="mailto:reanetseramoletsi14@gmail.com">Email Me Here</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p> Copyright &#169; Happy Coding LowLife</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
